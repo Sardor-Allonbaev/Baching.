@@ -10,8 +10,8 @@ for k in os.listdir('.'):
         w = Image.open(k)
         width, height = w.size
         draw = ImageDraw.Draw(w)
-        text = "KUROSU9"
-        title = "blue"
+        text = "SAM"
+        title = "RED"
         font = ImageFont.truetype("arial.ttf", 80)
         textwidth, textheight = draw.textsize(text, font)
 
@@ -35,7 +35,7 @@ for k in os.listdir('.'):
         width, height = res2.size
 
         draw = ImageDraw.Draw(res2)
-        text = "KUROSU9"
+        text = "SAM"
         title = "white"
         font = ImageFont.truetype("arial.ttf", 80)
         textwidth, textheight = draw.textsize(text, font)
